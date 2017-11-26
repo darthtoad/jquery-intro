@@ -1,8 +1,21 @@
 img {
-  display: none;
   width: 400px;
+  display: none;
 }
 
 .walrus-showing {
   display: none;
+}
+
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.conatiner-fluid img {
+  display: inherit;
 }
